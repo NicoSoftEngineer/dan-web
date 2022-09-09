@@ -1,0 +1,88 @@
+.panel{
+  height: 55px;
+  background-color: aqua;
+
+}
+.panel > li{
+  width: 100px;
+  text-decoration: none;
+
+}
+body{
+  margin: 0;
+}
+header{
+  position: fixed;
+  width: 100%;
+
+}
+.notak{
+  padding-top: 50px;
+}
+.flex-container {
+  display:flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container>div {
+  width: 100px;
+  height: 100px;
+
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+.height-line{
+  line-height: 100px;
+}
+.w{
+  width: 100px;
+}
+.container {
+  text-align: center;
+  font-size: 25px;
+  max-width: 1200px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.border{
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+}
+.left{
+  float: left;
+}
+
+
+.title{
+  font-family: 'Times New Roman', Times, serif;
+  color: orangered;
+  text-align: center;
+}
+vitr{
+  color: blue;
+}
+.ahoj{
+  font-size: 18px;
+  background-color: khaki;
+}
+.dane{
+  background-color: pink;
+}
+.kamo{
+  line-height: 3em;
+  background-color: yellow;
+  letter-spacing: 5px;
+  word-spacing: 2em;
+}
+i,p{
+  text-align:justify;
+}
